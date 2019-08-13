@@ -11,17 +11,30 @@ Metahuman in the overall population for all the calls made to the /metahuman pat
 
 ## Deployment
 Clone the repo
+
 $ git clone https://github.com/Victoriapm/metahuman-api.git
+
 $ cd metahuman-api
 
 Create the virtualenv
+
 $ virtualenv venv
 
 Install dependencies
+
 $ pip3 install -r requirements.txt
 
+Create the DB
+
+CREATE TABLE DNA_SAMPLES (
+   dna_array STRING[] PRIMARY KEY,
+   ismeta BOOL NOT NULL
+);
+
 Run the app
+
 $ python3 api.py
+
 
 ## Built With
 
