@@ -4,7 +4,7 @@ numpy
 Flask==1.1.1
 itsdangerous==1.1
 Jinja2==2.11.3
-Werkzeug==0.15.5
+Werkzeug==2.2.3
 MarkupSafe==0.23
 
 Flask-RESTful==0.3.7
